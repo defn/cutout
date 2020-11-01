@@ -1,0 +1,1 @@
+cookiecutter --no-input --overwrite-if-exists --directory letfn-container gh:defn/cutout output_dir=example
