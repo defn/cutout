@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   {{ cookiecutter.service }}:
-    image: {{ cookiecutter.repo_name}
+    image: {{ cookiecutter.repo_name }}
     dns:
       - 1.1.1.1
       - 1.0.0.1
